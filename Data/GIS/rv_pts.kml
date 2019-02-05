@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>rv_pts.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="waypoint">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#waypoint_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#waypoint_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="waypoint_h">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="waypoint_n">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Waypoints</name>
+		<open>1</open>
+		<Placemark>
+			<name>MH3TREE</name>
+			<LookAt>
+				<longitude>-122.3454515073263</longitude>
+				<latitude>39.14711451207826</latitude>
+				<altitude>0</altitude>
+				<heading>-3.50725089164374e-05</heading>
+				<tilt>0</tilt>
+				<range>218.9462859490868</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.3455368409735,39.14679307070052,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P1</name>
+			<description>15-NOV-18 11:01:41AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.34506,39.147127,177.73</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P10</name>
+			<description>15-NOV-18 10:49:53AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.345048,39.146893,189.26</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P11</name>
+			<description>15-NOV-18 10:51:26AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.345038,39.146902,188.06</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P12</name>
+			<description>15-NOV-18 10:52:34AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.345033,39.146891,187.58</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P13</name>
+			<description>15-NOV-18 10:55:58AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.3449,39.147096,186.86</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P14</name>
+			<description>15-NOV-18 10:57:33AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.344888,39.147097,184.94</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P15</name>
+			<description>15-NOV-18 10:54:21AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.344906,39.147088,185.9</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P16</name>
+			<description>16-NOV-18 5:49:42AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.344844,39.146806,195.03</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P17</name>
+			<description>16-NOV-18 5:50:55AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.34483,39.146811,195.51</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P18</name>
+			<description>16-NOV-18 5:52:09AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.344837,39.146808,195.99</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P2</name>
+			<description>15-NOV-18 11:39:34AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.345009,39.147384,190.71</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P3</name>
+			<description>15-NOV-18 11:40:52AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.344984,39.147381,189.26</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P4</name>
+			<description>15-NOV-18 11:13:14AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.34505,39.147504,192.87</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P5</name>
+			<description>15-NOV-18 11:16:01AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.345035,39.147502,195.99</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P7</name>
+			<description>15-NOV-18 11:21:02AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.345062,39.147684,196.23</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P8</name>
+			<description>15-NOV-18 11:22:52AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.34507,39.147664,204.16</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3P9</name>
+			<description>15-NOV-18 11:24:28AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.345099,39.147657,202</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3W1</name>
+			<description>15-NOV-18 11:28:43AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.345001,39.147585,201.04</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3W2</name>
+			<description>15-NOV-18 11:18:17AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.344994,39.147519,197.68</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3W3</name>
+			<description>15-NOV-18 11:27:00AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.344994,39.147694,200.8</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3W4</name>
+			<description>15-NOV-18 11:34:14AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.345107,39.147624,198.4</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3W5</name>
+			<description>15-NOV-18 10:38:34AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.344662,39.146855,199.6</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3W6</name>
+			<description>15-NOV-18 9:48:16AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.344725,39.146863,199.36</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3W7</name>
+			<description>15-NOV-18 10:33:48AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.344691,39.146768,201.76</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH3W8</name>
+			<description>16-NOV-18 5:47:58AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.344836,39.146749,195.27</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH7P1</name>
+			<description>16-NOV-18 9:23:43AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.34755,39.15201,230.12</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH7P2</name>
+			<description>16-NOV-18 9:16:50AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.347573,39.151985,237.57</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH7P3</name>
+			<description>16-NOV-18 9:13:50AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.347578,39.151945,239.49</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH7P4</name>
+			<description>16-NOV-18 9:18:51AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.347569,39.151999,236.37</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH7P5</name>
+			<description>16-NOV-18 9:26:31AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.347558,39.151997,234.45</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH7W1</name>
+			<description>16-NOV-18 9:44:00AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.34832,39.152569,280.59</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH7W2</name>
+			<description>16-NOV-18 9:41:03AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.348473,39.152549,273.62</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH7W3</name>
+			<description>16-NOV-18 9:42:42AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.348419,39.152474,276.98</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH7W4</name>
+			<description>16-NOV-18 9:37:13AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.34839,39.152983,271.94</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MH7W5</name>
+			<description>16-NOV-18 9:32:39AM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-122.348411,39.151923,234.69</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
